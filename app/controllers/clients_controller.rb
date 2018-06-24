@@ -1,4 +1,10 @@
+# запрос на localhost:3000/
+# routes.rb root 'clients#new'
+# находим метод new, render по умолчанию app/views/clients/new.html.erb
+
 class ClientsController < ApplicationController
+
+  layout 'landing'
 
   # GET /clients/new
   def new
