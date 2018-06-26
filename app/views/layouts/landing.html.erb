@@ -85,9 +85,6 @@
       <div class="main main-raised">
          <div class="container">
             <div class="section">
-               <div class="container">
-                  <%= yield %>
-               </div>
                <div class="cards" id="morphingCards">
                   <div class="container">
                      <div class="title">
@@ -587,58 +584,10 @@
 	            <div class="col-md-6 ml-auto mr-auto" id="contactMe">
 	               <h2 class="text-center title">Choosing me you get</h2>
 	               <h4 class="text-center description">Personal master of manicure. Beautiful, well-groomed nails. In my work, I use only sterile instruments that have undergone three stages of sterilization. I will responde get back to you in a couple of hours.</h4>
-	               <form class="contact-form">
-	                  <div class="row">
-	                     <div class="col-md-6">
-	                        <div class="form-group">
-	                           <label class="bmd-label-floating">Ведите Ваше имя</label>
-	                           <input type="text" class="form-control">
-	                        </div>
-	                     </div>
-	                     <div class="col-md-6">
-	                        <div class="form-group">
-	                           <label class="bmd-label-floating">Введите Вашу фамилию</label>
-	                           <input type="text" class="form-control">
-	                        </div>
-	                     </div>
-	                  </div>
-	                  <div class="form-group">
-	                     <label for="exampleMessage" class="bmd-label-floating">Укажите Ваш Email</label>
-	                     <textarea type="email" class="form-control" id="exampleMessage"></textarea>
-	                  </div>
-	                  <div class="form-group">
-	                     <label for="exampleMessage" class="bmd-label-floating">Комментарий</label>
-	                     <textarea type="textarea" class="form-control" id="exampleMessage"></textarea>
-	                  </div>
-	                  <!--                 file uploader -->
-	                  <div id="file-uploader">
-	                     <div class="row">
-	                     </div>
-	                     <div class="form-group form-file-upload form-file-multiple">
-	                        <input type="file" multiple="" class="inputFileHidden">
-	                        <div class="input-group">
-	                           <input type="text" class="form-control inputFileVisible" placeholder="Прикрепить файлы" multiple>
-	                           <span class="input-group-btn">
-	                           <button type="button" class="btn btn-fab btn-round btn-info">
-	                           <i class="material-icons">layers</i>
-	                           </button>
-	                           </span>
-	                        </div>
-	                     </div>
-	                  </div>
-
-	                  <div class="row">
-	                  	<div class="col-md-4 ml-auto mr-auto text-center">
-	                  		<button class="btn btn-primary btn-raised" type="submit">
-	                  			Отправить
-	                  		</button>
-	                  	</div>
-	                  </div>
-	                </form>
-	      			</div>
+                  <%= yield %>
+      			</div>
 	      	</div>         	
          </div>
-
       </div>
       <footer class="footer ">
          <div class="container">

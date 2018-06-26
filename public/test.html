@@ -588,23 +588,23 @@
 	                  <div class="row">
 	                     <div class="col-md-6">
 	                        <div class="form-group">
-	                           <label class="bmd-label-floating">Ведите Ваше имя</label>
+	                           <label class="bmd-label-floating">Your First Name</label>
 	                           <input type="text" class="form-control">
 	                        </div>
 	                     </div>
 	                     <div class="col-md-6">
 	                        <div class="form-group">
-	                           <label class="bmd-label-floating">Введите Вашу фамилию</label>
+	                           <label class="bmd-label-floating">Your Last Name</label>
 	                           <input type="text" class="form-control">
 	                        </div>
 	                     </div>
 	                  </div>
 	                  <div class="form-group">
-	                     <label for="exampleMessage" class="bmd-label-floating">Укажите Ваш Email</label>
+	                     <label for="exampleMessage" class="bmd-label-floating">Your Email</label>
 	                     <textarea type="email" class="form-control" id="exampleMessage"></textarea>
 	                  </div>
 	                  <div class="form-group">
-	                     <label for="exampleMessage" class="bmd-label-floating">Комментарий</label>
+	                     <label for="exampleMessage" class="bmd-label-floating">Your Message</label>
 	                     <textarea type="textarea" class="form-control" id="exampleMessage"></textarea>
 	                  </div>
 	                  <!--                 file uploader -->
@@ -627,12 +627,13 @@
 	                  <div class="row">
 	                  	<div class="col-md-4 ml-auto mr-auto text-center">
 	                  		<button class="btn btn-primary btn-raised" type="submit">
-	                  			Отправить
+	                  			Send Message
 	                  		</button>
 	                  	</div>
 	                  </div>
-	                </form>
-	      			</div>
+	               </form>
+                  <%= yield %>
+      			</div>
 	      	</div>         	
          </div>
 
