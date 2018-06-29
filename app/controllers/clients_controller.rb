@@ -23,6 +23,13 @@ class ClientsController < ApplicationController
     end
   end
 
+
+
+
+# заполняем форму
+# отправляем запрос
+# routing, controller
+
   private
 
     # Never trust parameters from the scary internet, only allow the white list through.
