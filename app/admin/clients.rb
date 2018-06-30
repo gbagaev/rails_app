@@ -3,9 +3,12 @@ ActiveAdmin.register Client do
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
 # permit_params :list, :of, :attributes, :on, :model
-permit_params :name, :last_name, :phone, :email
+permit_params :first_name, :last_name, :phone, :email
 
 index do
+  column :id
+  column :name
+  column :last_name
   column :full_name
   column :phone
   column :email
