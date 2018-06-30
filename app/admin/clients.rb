@@ -6,11 +6,10 @@ ActiveAdmin.register Client do
 permit_params :name, :last_name, :phone, :email
 
 index do
-  column :id
-  column :email
-  column :name
-  column :last_name
+  column :full_name
   column :phone
+  column :email
+  column :created_at
   actions
  end
 #
