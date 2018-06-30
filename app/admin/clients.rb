@@ -7,7 +7,7 @@ permit_params :first_name, :last_name, :phone, :email
 
 index do
   column :id
-  column :name
+  column :first_name
   column :last_name
   column :full_name
   column :phone
